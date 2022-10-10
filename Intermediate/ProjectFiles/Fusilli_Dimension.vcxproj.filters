@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Fusilli_Dimension.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Fusilli_Dimension.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Fusilli_DimensionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\Fusilli_Dimension.png" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DiscordRPC">
+      <UniqueIdentifier>{F8BAF4D6-D36E-339B-9AA5-CFC2EECA6656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DiscordRPC\Source">
+      <UniqueIdentifier>{33CDDE4D-220F-30D5-8C53-CC3C9FFE7B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DiscordRPC\Source\DiscordRpc">
+      <UniqueIdentifier>{5A55F925-F16A-3B73-817F-285C3C9A4967}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DiscordRPC\Source\DiscordRpc\DiscordRpc.Build.cs">
+      <Filter>Plugins\DiscordRPC\Source\DiscordRpc</Filter>
+    </None>
+    <Filter Include="Plugins\DiscordRPC\Source\DiscordRpc\Private">
+      <UniqueIdentifier>{EC806D76-0970-3CB2-8657-937068FA0057}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\DiscordRpc\Private\DiscordRpc.cpp">
+      <Filter>Plugins\DiscordRPC\Source\DiscordRpc\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\DiscordRpc\Private\DiscordRpcBlueprint.cpp">
+      <Filter>Plugins\DiscordRPC\Source\DiscordRpc\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\DiscordRpc\Private\DiscordRpcPrivatePCH.h">
+      <Filter>Plugins\DiscordRPC\Source\DiscordRpc\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DiscordRPC\Source\DiscordRpc\Public">
+      <UniqueIdentifier>{456BE171-F79A-3A17-926B-DF4A2F380C02}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\DiscordRpc\Public\DiscordRpc.h">
+      <Filter>Plugins\DiscordRPC\Source\DiscordRpc\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\DiscordRpc\Public\DiscordRpcBlueprint.h">
+      <Filter>Plugins\DiscordRPC\Source\DiscordRpc\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\DiscordRPC\DiscordRpc.uplugin">
+      <Filter>Plugins\DiscordRPC</Filter>
+    </None>
+    <Filter Include="Plugins\DiscordRPC\Config">
+      <UniqueIdentifier>{D7536889-BD9C-3DAF-ACBD-265C8B530AB6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DiscordRPC\Config\FilterPlugin.ini">
+      <Filter>Plugins\DiscordRPC\Config</Filter>
+    </None>
+    <Filter Include="Plugins\DiscordRPC\Resources">
+      <UniqueIdentifier>{8BE3D03F-55B1-359C-A000-EAD4051A5648}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DiscordRPC\Resources\discord.png">
+      <Filter>Plugins\DiscordRPC\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\DiscordRPC\Resources\Icon128.png">
+      <Filter>Plugins\DiscordRPC\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\DiscordRPC\Source\ThirdParty">
+      <UniqueIdentifier>{05D8AE72-074C-3C6F-9C94-239F50A82DA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary">
+      <UniqueIdentifier>{0BAD4163-08B7-3F7F-8874-CE39DF52340C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\DiscordRpcLibrary.Build.cs">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary</Filter>
+    </None>
+    <Filter Include="Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include">
+      <UniqueIdentifier>{BDE088EC-D11D-3E9F-A24C-B6D728C42177}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\achievement_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\achievement_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\activity_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\activity_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\application_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\application_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\core.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\core.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\discord.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\discord_register.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\discord_rpc.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\event.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\ffi.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\image_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\image_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\lobby_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\lobby_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\network_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\network_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\overlay_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\overlay_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\relationship_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\relationship_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\storage_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\storage_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\store_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\store_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\types.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\types.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\user_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\user_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\voice_manager.cpp">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include\voice_manager.h">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64">
+      <UniqueIdentifier>{19CE3422-DFE1-398E-8062-99A2CEDC41DC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64\discord-rpc.dll">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64\discord-rpc.lib">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64\discord_game_sdk.bundle">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64\discord_game_sdk.dll">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64\discord_game_sdk.dll.lib">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64\discord_game_sdk.dylib">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64\discord_game_sdk.so">
+      <Filter>Plugins\DiscordRPC\Source\ThirdParty\DiscordRpcLibrary\Win64</Filter>
+    </None>
+    <Filter Include="Source\Fusilli_Dimension">
+      <UniqueIdentifier>{A2FE71A2-09F8-3BCF-A86A-CB295A286CD8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Fusilli_Dimension\Fusilli_Dimension.Build.cs">
+      <Filter>Source\Fusilli_Dimension</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Fusilli_Dimension\Fusilli_Dimension.cpp">
+      <Filter>Source\Fusilli_Dimension</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Fusilli_Dimension\Fusilli_Dimension.h">
+      <Filter>Source\Fusilli_Dimension</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Fusilli_Dimension\MyClass.cpp">
+      <Filter>Source\Fusilli_Dimension</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Fusilli_Dimension\MyClass.h">
+      <Filter>Source\Fusilli_Dimension</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\uzkhjdgm\\Documents\\Unreal Projects\\Fusilli_Dimension\\Source\\Fusilli_Dimension\\Fusilli_Dimension.Build.cs",
+		"C:\\Users\\uzkhjdgm\\Documents\\Unreal Projects\\Fusilli_Dimension\\Plugins\\DiscordRPC\\Source\\DiscordRpc\\DiscordRpc.Build.cs",
+		"C:\\Users\\uzkhjdgm\\Documents\\Unreal Projects\\Fusilli_Dimension\\Plugins\\DiscordRPC\\Source\\ThirdParty\\DiscordRpcLibrary\\DiscordRpcLibrary.Build.cs",
+		"C:\\Users\\uzkhjdgm\\Documents\\Unreal Projects\\Fusilli_Dimension\\Source\\Fusilli_Dimension.Target.cs",
+		"C:\\Users\\uzkhjdgm\\Documents\\Unreal Projects\\Fusilli_Dimension\\Source\\Fusilli_DimensionEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

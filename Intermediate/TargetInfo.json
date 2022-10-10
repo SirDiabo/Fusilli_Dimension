@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Fusilli_Dimension",
+			"Path": "C:\\Users\\uzkhjdgm\\Documents\\Unreal Projects\\Fusilli_Dimension\\Source\\Fusilli_Dimension.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Fusilli_DimensionEditor",
+			"Path": "C:\\Users\\uzkhjdgm\\Documents\\Unreal Projects\\Fusilli_Dimension\\Source\\Fusilli_DimensionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
