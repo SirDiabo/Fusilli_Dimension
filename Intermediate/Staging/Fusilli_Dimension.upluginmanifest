@@ -2932,6 +2932,38 @@
 					}
 				]
 			}
+		},
+		{
+			"File": "../../../Fusilli_Dimension/Plugins/DiscordRPC/DiscordRpc.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.1",
+				"FriendlyName": "Discord RPC",
+				"Description": "Wrap the Discord RPC library.",
+				"Category": "Messaging",
+				"CreatedBy": "Chris Marsh <chris@discordapp.com> and updated by Louis R.",
+				"CreatedByURL": "https://discordapp.com/",
+				"DocsURL": "https://github.com/LouisRaverdy/DiscordPluginUE",
+				"MarketplaceURL": "",
+				"SupportURL": "https://github.com/LouisRaverdy/DiscordPluginUE",
+				"CanContainContent": true,
+				"IsBetaVersion": true,
+				"Installed": true,
+				"Modules": [
+					{
+						"Name": "DiscordRpc",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault",
+						"PlatformAllowList": [
+							"Win64",
+							"Linux",
+							"Mac"
+						]
+					}
+				]
+			}
 		}
 	]
 }
